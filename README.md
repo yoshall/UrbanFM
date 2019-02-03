@@ -81,25 +81,27 @@ We evaluate our method on TaxiBJ in four different time period and the experimen
 ![](img/results_BJ.png)
 
 ## Visualization
-This is the visualization for an area near Peking University, the same as in the Figure 9 in our paper. It can be clearly seen that when non-external factors are no considered (UrbanFM_ne), the inferred distribution remains very stable along with time. There is no difference between flows in the evening and in the morning.  
+Here are the two areas in Beijing we visualize. The area1 is the place near Peking University, which is the same as in the Figure 9 in our paper. Area2 is a place near GuangQuMen bridge, mainly a place for residences. 
 
-![alt text](img/gif/area1.png)
-<!--<img src="img/gif/area1.png" alt="Kitten" title="studied area1" width="300" height="300" />-->
+| AREA1 | AREA2|
+|-- |-- |
+|![alt text](img/gif/area1.png)|![alt text](img/gif/area2.png)|
 
-<!--
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |-->
-
+This is the visualization for the inferred distribution for area1 for a day, from 7:00 to 21:00. From the GIF below we can clearly see that when external factors are not considered (UrbanFM_ne), the inferred distribution remains very stable along with time. That is, there is no difference between flows in the evening and in the morning. However, the inference from UrbanFM is very dynamic and adaptive to time.
 
 | UrbanFM | UrbanFM_ne|
 |-- |-- |
 |![](img/gif/ext/area0/0_0.gif)|![](img/gif/ne/area0/0_0.gif)|
 |![](img/gif/ext/area0/0_1.gif)|![](img/gif/ne/area0/0_1.gif)|
 
+This is the example for area2, where the top-right conner is a crossroad while other part of this region is residence. When external factors are not considered, it can be seen that the model only focus on the crossroad and cannot adjust to different temporal factor. However, UrbanFM is free from this problem and produce adaptive flow inference. These visualizations suggest UrbanFM indeed considers the external factor for inference. 
 
+![alt text](gif/ext/4/0_0/0_0_7.png)
+
+| UrbanFM |  UrbanFM_ne|
+|-- |-- |
+|![](gif/ext/4/0_0/0_0.gif)|![](gif/ne/4/0_0/0_0.gif)|
+|![](gif/ext/4/0_1/0_1.gif)|![](gif/ne/4/0_1/0_1.gif)|
 
 <!-- The following figure depicts the inference errors of different methods. Compared with the baselines, UrbanFM shows its superiority in this visualization.
 
