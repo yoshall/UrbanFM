@@ -101,8 +101,8 @@ This is the example for area2, where the top-right conner is a crossroad while o
 
 | UrbanFM |  UrbanFM_ne|
 |-- |-- |
-|![](gif/ext/4/0_0/0_0.gif)|![](gif/ne/4/0_0/0_0.gif)|
-|![](gif/ext/4/0_1/0_1.gif)|![](gif/ne/4/0_1/0_1.gif)|
+|![](img/gif/ext/area1/0_0.gif)|![](img/gif/ne/area1/0_0.gif)|
+|![](img/gif/ext/area1/0_1.gif)|![](img/gif/ne/area1/0_1.gif)|
 
 <!-- The following figure depicts the inference errors of different methods. Compared with the baselines, UrbanFM shows its superiority in this visualization.
 
