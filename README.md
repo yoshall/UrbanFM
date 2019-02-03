@@ -80,9 +80,27 @@ We evaluate our method on TaxiBJ in four different time period and the experimen
 
 ![](img/results_BJ.png)
 
-
-
 ## Visualization
+This is the visualization for an area near Peking University, the same as in the Figure 9 in our paper. It can be clearly seen that when non-external factors are no considered (UrbanFM_ne), the inferred distribution remains very stable along with time. There is no difference between flows in the evening and in the morning.  
+
+![alt text](img/gif/area1.png)
+<!--<img src="img/gif/area1.png" alt="Kitten" title="studied area1" width="300" height="300" />-->
+
+<!--
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |-->
+
+
+| UrbanFM | UrbanFM_ne|
+|-- |-- |
+|![](img/gif/ext/area0/0_0.gif)|![](img/gif/ne/area0/0_0.gif)|
+|![](img/gif/ext/area0/0_1.gif)|![](img/gif/ne/area0/0_1.gif)|
+
+
+
 <!-- The following figure depicts the inference errors of different methods. Compared with the baselines, UrbanFM shows its superiority in this visualization.
 
 ![](img/diff.png) -->
