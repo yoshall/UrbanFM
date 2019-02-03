@@ -10,28 +10,27 @@ Yuxuan Liang, Kun Ouyang, Lin Jing, Sijie Ruan, Ye Liu, Junbo Zhang, David S. Ro
 ![](img/framework.png)
 
 ## Results
-We evaluate our method on TaxiBJ in four different time period and the experimental results are shown as follows:
+We evaluate our method on TaxiBJ in four different time periods and the main experimental results are shown as follows:
 
 ![](img/results_BJ.png)
 
 ## Visualization
-Here are the two areas in Beijing we visualize. The area1 is the place near Peking University, which is the same as in the Figure 9 in our paper. Area2 is a place near GuangQuMen bridge, mainly a place for residences. 
+Here are the two areas in Beijing for which we provide dynamic visualizations. The first area is a place near Peking University, which is the same as in the Figure 9 of our paper. Second is a place near GuangQuMen Bridge, which is a main residence area in Beijing. 
 
-| AREA1 | AREA2 |
+| Area near Peking University | Area near GuangQuMen |
 |-- |-- |
 |![](img/gif/area0.png)|![](img/gif/area1.png)|
 
-### Area1
-This is the visualization for the inferred distribution for area1 for a day, from 7:00 to 21:00. From the GIF below we can clearly see that when external factors are not considered (UrbanFM_ne), the inferred distribution remains very stable along with time. That is, there is no difference between flows in the evening and in the morning. However, the inference from UrbanFM is very dynamic and adaptive to time.
+### Area near Peking University
+This is the visualization for the inferred distribution for area1 for a day, from 7:00 to 21:00. From the GIF below we can clearly see that when external factors are not considered (UrbanFM_ne), the inferred distribution remains very stable along with time changes. That is, there is no difference between flows in the evening and in the morning, which is intuitively inappropriate. However, the inference from UrbanFM is very dynamic and can adapt to time, which faithfully reflects that how people left from home to the research centers in daytime and return home in the evening on weekdays, as well as different moving patterns on weekends.
 
 | UrbanFM | UrbanFM_ne|
 |-- |-- |
 |![](img/gif/ext/area0/0_0.gif)|![](img/gif/ne/area0/0_0.gif)|
 |![](img/gif/ext/area0/0_1.gif)|![](img/gif/ne/area0/0_1.gif)|
 
-### Area2
-
-This is the example for area2, where the top-right conner is a crossroad while other part of this region is residence. When external factors are not considered, it can be seen that the model only focus on the crossroad and cannot adjust to different temporal factor. However, UrbanFM is free from this problem and produce adaptive flow inference. These visualizations suggest UrbanFM indeed considers the external factor for inference. 
+### Area near GuangQuMen
+In this area, the top-right conner is a main crossroad where the other parts of this region are residences. When external factors are not considered, it can be seen that the model (UrbanFM_ne) only focuses on the crossroad and cannot adjust to different temporal factors. However, UrbanFM is free from this problem and produce adaptive flow inference. These visualizations suggest UrbanFM indeed considers the external factor for inference. 
 
 | UrbanFM |  UrbanFM_ne|
 |-- |-- |
