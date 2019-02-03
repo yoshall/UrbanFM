@@ -83,10 +83,11 @@ We evaluate our method on TaxiBJ in four different time period and the experimen
 ## Visualization
 Here are the two areas in Beijing we visualize. The area1 is the place near Peking University, which is the same as in the Figure 9 in our paper. Area2 is a place near GuangQuMen bridge, mainly a place for residences. 
 
-| AREA1 | AREA2|
+| AREA1 | AREA2 |
 |-- |-- |
-|![alt text](img/gif/area1.png)|![alt text](img/gif/area2.png)|
+|![](img/gif/area0.png)|![](img/gif/area1.png)|
 
+### Area1
 This is the visualization for the inferred distribution for area1 for a day, from 7:00 to 21:00. From the GIF below we can clearly see that when external factors are not considered (UrbanFM_ne), the inferred distribution remains very stable along with time. That is, there is no difference between flows in the evening and in the morning. However, the inference from UrbanFM is very dynamic and adaptive to time.
 
 | UrbanFM | UrbanFM_ne|
@@ -94,9 +95,9 @@ This is the visualization for the inferred distribution for area1 for a day, fro
 |![](img/gif/ext/area0/0_0.gif)|![](img/gif/ne/area0/0_0.gif)|
 |![](img/gif/ext/area0/0_1.gif)|![](img/gif/ne/area0/0_1.gif)|
 
-This is the example for area2, where the top-right conner is a crossroad while other part of this region is residence. When external factors are not considered, it can be seen that the model only focus on the crossroad and cannot adjust to different temporal factor. However, UrbanFM is free from this problem and produce adaptive flow inference. These visualizations suggest UrbanFM indeed considers the external factor for inference. 
+### Area2
 
-![alt text](gif/ext/4/0_0/0_0_7.png)
+This is the example for area2, where the top-right conner is a crossroad while other part of this region is residence. When external factors are not considered, it can be seen that the model only focus on the crossroad and cannot adjust to different temporal factor. However, UrbanFM is free from this problem and produce adaptive flow inference. These visualizations suggest UrbanFM indeed considers the external factor for inference. 
 
 | UrbanFM |  UrbanFM_ne|
 |-- |-- |
