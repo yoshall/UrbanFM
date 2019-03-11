@@ -4,6 +4,8 @@ In this study, we aim to infer the real-time and fine-grained crowd flows throug
 *This is an easy implement of UrbanFM using Pytorch 0.4.1, tested on Ubuntu 16.04 with a TITAN V GPU.*
 
 ## Paper
+Liang, Yuxuan, Kun Ouyang, Lin Jing, Sijie Ruan, Ye Liu, Junbo Zhang, David S. Rosenblum, and Yu Zheng. "[UrbanFM: Inferring Fine-Grained Urban Flows.](https://arxiv.org/pdf/1902.05377.pdf)" arXiv preprint arXiv:1902.05377 (2019).
+
 If you find our code and dataset useful for your research, please cite our paper:
 ```
 @article{liang2019urbanfm,
