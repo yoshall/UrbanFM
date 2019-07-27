@@ -8,12 +8,23 @@ Yuxuan Liang, Kun Ouyang, Lin Jing, Sijie Ruan, Ye Liu, Junbo Zhang, David S. Ro
 
 If you find our code and dataset useful for your research, please cite our paper (preprint at arxiv):
 ```
-@article{liang2019urbanfm,
-  title={UrbanFM: Inferring Fine-Grained Urban Flows},
-  author={Liang, Yuxuan and Ouyang, Kun and Jing, Lin and Ruan, Sijie and Liu, Ye and Zhang, Junbo and Rosenblum, David S and Zheng, Yu},
-  journal={arXiv preprint arXiv:1902.05377},
-  year={2019}
-}
+@inproceedings{Liang:2019:UIF:3292500.3330646,
+ author = {Liang, Yuxuan and Ouyang, Kun and Jing, Lin and Ruan, Sijie and Liu, Ye and Zhang, Junbo and Rosenblum, David S. and Zheng, Yu},
+ title = {UrbanFM: Inferring Fine-Grained Urban Flows},
+ booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
+ series = {KDD '19},
+ year = {2019},
+ isbn = {978-1-4503-6201-6},
+ location = {Anchorage, AK, USA},
+ pages = {3132--3142},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/3292500.3330646},
+ doi = {10.1145/3292500.3330646},
+ acmid = {3330646},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {deep learning, spatio-temporal data, urban computing},
+} 
 ```
 
 ## Framework
