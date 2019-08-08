@@ -11,7 +11,7 @@ If you find our code and dataset useful for your research, please cite our paper
 @inproceedings{Liang:2019:UIF:3292500.3330646,
  author = {Liang, Yuxuan and Ouyang, Kun and Jing, Lin and Ruan, Sijie and Liu, Ye and Zhang, Junbo and Rosenblum, David S. and Zheng, Yu},
  title = {UrbanFM: Inferring Fine-Grained Urban Flows},
- booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
+ booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
  series = {KDD '19},
  year = {2019},
  isbn = {978-1-4503-6201-6},
